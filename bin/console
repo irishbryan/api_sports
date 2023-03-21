@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "api_sports"
+
+@client = ApiSports::Client.new(api_key: ENV["API_SPORTS_KEY"])
+
+puts
+puts "We've created a '@client' variable as a ApiSports::Client using ENV['SPORTS_API_KEY'] as the API key."
+puts
+
+require "irb"
+IRB.start(__FILE__)

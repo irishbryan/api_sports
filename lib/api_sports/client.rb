@@ -21,7 +21,8 @@ module ApiSports
     def connection
       @connection ||= Faraday.new(BASE_URL) do |conn|
         conn.headers = { "x-apisports-key": api_key }
-        conn.response :json
+        conn.response :json, content_type: "application/json"
+        conn.adapter adapter, @stubs
       end
     end
   end

@@ -11,8 +11,8 @@ module ApiSports
   autoload :Resource, "api_sports/resource"
 
   # Classes used to return a nicer object wrapping the response data
-  autoload :CountriesResource, "api_sports/resources/countries"
+  autoload :Country, "api_sports/objects/country"
 
   # Category of API calls
-  autoload :Country, "api_sports/objects/country"
+  autoload :CountriesResource, "api_sports/resources/countries"
 end

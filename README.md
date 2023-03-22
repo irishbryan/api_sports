@@ -19,12 +19,12 @@ If bundler is not being used to manage dependencies, install the gem by executin
 ## Usage
 
 ```ruby
-client = APISports::Client.new(api_key: ENV["API_SPORTS_KEY"])
+@client = ApiSports::Client.new(api_key: ENV["API_SPORTS_KEY"])
 
 client.countries.list
-client.countries.get
+client.countries.rerieve
 client.leagues.list
-client.leagues.get
+client.leagues.rerieve
 
 ```
 

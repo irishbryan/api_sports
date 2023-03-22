@@ -18,6 +18,10 @@ module ApiSports
       CountriesResource.new(self)
     end
 
+    def timezones
+      TimezonesResource.new(self)
+    end
+
     def connection
       @connection ||= Faraday.new(BASE_URL) do |conn|
         conn.headers = { "x-apisports-key": api_key }

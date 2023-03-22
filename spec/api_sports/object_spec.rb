@@ -16,7 +16,7 @@ RSpec.describe Object do
     expect(obj.foo.bar.baz).to eq("foobar")
   end
 
-  it "handles array" do
+  it "handles array of hashes" do
     obj = ApiSports::Object.new(foo: [{ bar: :baz }])
     expect(obj.foo.first.class).to eq(OpenStruct)
     expect(obj.foo.first.bar).to eq(:baz)

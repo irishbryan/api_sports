@@ -1,5 +1,6 @@
-RSpec.describe "Seasons" do
+# frozen_string_literal: true
 
+RSpec.describe "Seasons" do
   it "can list seasons" do
     stub = stub_request("leagues/seasons", response: stub_response(fixture: "seasons/list"))
     client = ApiSports::Client.new(api_key: "fake", adapter: :test, stubs: stub)

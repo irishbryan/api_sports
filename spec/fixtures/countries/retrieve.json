@@ -1,19 +1,14 @@
 {
   "get": "countries",
-  "parameters": {
-    "name": "england"
-  },
+  "parameters": { "name": "Ireland" },
   "errors": [],
   "results": 1,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
+  "paging": { "current": 1, "total": 1 },
   "response": [
     {
-      "name": "England",
-      "code": "GB",
-      "flag": "https://media.api-sports.io/flags/gb.svg"
+      "name": "Ireland",
+      "code": "IE",
+      "flag": "https://media-2.api-sports.io/flags/ie.svg"
     }
   ]
 }

@@ -7,10 +7,11 @@ module ApiSports
       Collection.from_response(response, type: Country)
     end
 
-    # Returns Collection since some country codes return multiple countries.
-    # "GB" will return England, Scotland, Wales, and Northern Ireland.
-    def retrieve(country_code:)
-      list(code: country_code)
+    def retrieve(country_name:)
+      response = get_single_resource("countries", params: { name: country_name }) do |r|
+        r.body["response"].first
+      end
+      Country.new(response)
     end
   end
 end

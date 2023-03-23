@@ -12,8 +12,9 @@ module ApiSports
       handle_response client.connection.get(url, params, headers)
     end
 
-    def get_single_resource(url, key:, params: {}, headers: {})
-      get_request(url, params: params, headers: headers).body["response"].first.dig(key)
+    def get_single_resource(url, params: {}, headers: {}, &dig_block)
+      response = get_request(url, params: params, headers: headers)
+      yield(response)
     end
 
     def handle_response(response)

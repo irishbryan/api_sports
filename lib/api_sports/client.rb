@@ -30,6 +30,10 @@ module ApiSports
       SeasonsResource.new(self)
     end
 
+    def teams
+      TeamsResource.new(self)
+    end
+
     def connection
       @connection ||= Faraday.new(BASE_URL) do |conn|
         conn.headers = { "x-apisports-key": api_key }

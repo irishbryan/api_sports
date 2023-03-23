@@ -15,10 +15,13 @@ module ApiSports
   autoload :Timezone, "api_sports/objects/timezone"
   autoload :League, "api_sports/objects/league"
   autoload :Season, "api_sports/objects/season"
+  autoload :Team, "api_sports/objects/team"
+  autoload :TeamStatistics, "api_sports/objects/team_statistics"
 
   # Category of API calls
   autoload :CountriesResource, "api_sports/resources/countries"
   autoload :TimezonesResource, "api_sports/resources/timezones"
   autoload :LeaguesResource, "api_sports/resources/leagues"
   autoload :SeasonsResource, "api_sports/resources/seasons"
+  autoload :TeamsResource, "api_sports/resources/teams"
 end

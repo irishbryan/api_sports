@@ -3,7 +3,7 @@
 RSpec.describe "Countries" do
   it "can list all countries" do
     stub = stub_request("countries", response: stub_response(fixture: "countries/list"))
-    client = ApiSports::Client.new(api_key: "fake", adapter: :test, stubs: stub)
+    client = create_test_client(stub: stub)
     countries = client.countries.list
 
     expect(countries).to be_a(ApiSports::Collection)
@@ -12,8 +12,8 @@ RSpec.describe "Countries" do
   end
 
   it "can retrieve based on country name" do
-    stub = stub_request("countries", response: stub_response(fixture: "countries/retrieve"))
-    client = ApiSports::Client.new(api_key: "fake", adapter: :test, stubs: stub)
+    stub = stub_request("countries?name=Ireland", response: stub_response(fixture: "countries/retrieve"))
+    client = create_test_client(stub: stub)
     country = client.countries.retrieve(country_name: "Ireland")
 
     expect(country.class).to eq(ApiSports::Country)

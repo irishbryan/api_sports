@@ -18,6 +18,8 @@ module ApiSports
     end
 
     def handle_response(response)
+      # TODO: Handle all errors
+
       case response.status
       when 400
         raise Error, "Your request was malformed. #{response.body['']}"

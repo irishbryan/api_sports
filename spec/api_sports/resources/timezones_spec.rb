@@ -3,7 +3,7 @@
 RSpec.describe "TimeZones" do
   it "can list timezones" do
     stub = stub_request("timezone", response: stub_response(fixture: "timezones/list"))
-    client = ApiSports::Client.new(api_key: "fake", adapter: :test, stubs: stub)
+    client = create_test_client(stub: stub)
     timezones = client.timezones.list
 
     expect(timezones).to be_a(ApiSports::Collection)

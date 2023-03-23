@@ -3,7 +3,7 @@
 RSpec.describe "Leagues" do
   it "can list leagues" do
     stub = stub_request("leagues", response: stub_response(fixture: "leagues/list"))
-    client = ApiSports::Client.new(api_key: "fake", adapter: :test, stubs: stub)
+    client = create_test_client(stub: stub)
     leagues = client.leagues.list
 
     expect(leagues).to be_a(ApiSports::Collection)
@@ -14,8 +14,8 @@ RSpec.describe "Leagues" do
   end
 
   it "can retrieve league by id" do
-    stub = stub_request("leagues", response: stub_response(fixture: "leagues/retrieve"))
-    client = ApiSports::Client.new(api_key: "fake", adapter: :test, stubs: stub)
+    stub = stub_request("leagues?id=39", response: stub_response(fixture: "leagues/retrieve"))
+    client = create_test_client(stub: stub)
     league = client.leagues.retrieve(league_id: 39)
 
     expect(league).to be_a(ApiSports::League)

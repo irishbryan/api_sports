@@ -13,8 +13,12 @@ module ApiSports
   # Classes used to return a nicer object wrapping the response data
   autoload :Country, "api_sports/objects/country"
   autoload :Timezone, "api_sports/objects/timezone"
+  autoload :League, "api_sports/objects/league"
+  autoload :Season, "api_sports/objects/season"
 
   # Category of API calls
   autoload :CountriesResource, "api_sports/resources/countries"
   autoload :TimezonesResource, "api_sports/resources/timezones"
+  autoload :LeaguesResource, "api_sports/resources/leagues"
+  autoload :SeasonsResource, "api_sports/resources/seasons"
 end

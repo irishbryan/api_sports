@@ -12,6 +12,10 @@ module ApiSports
       handle_response client.connection.get(url, params, headers)
     end
 
+    def get_single_resource(url, key:, params: {}, headers: {})
+      get_request(url, params: params, headers: headers).body["response"].first.dig(key)
+    end
+
     def handle_response(response)
       case response.status
       when 400

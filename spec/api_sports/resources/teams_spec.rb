@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe "Teams" do
   it "can retrieve list of teams based on search" do
     stub = stub_request("teams?search=Manchester%20United", response: stub_response(fixture: "teams/list"))

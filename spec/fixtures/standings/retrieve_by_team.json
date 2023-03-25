@@ -1,0 +1,59 @@
+{
+  "get": "standings",
+  "parameters": { "league": "39", "season": "2022", "team": "33" },
+  "errors": [],
+  "results": 1,
+  "paging": { "current": 1, "total": 1 },
+  "response": [
+    {
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-1.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-2.api-sports.io/flags/gb.svg",
+        "season": 2022,
+        "standings": [
+          [
+            {
+              "rank": 3,
+              "team": {
+                "id": 33,
+                "name": "Manchester United",
+                "logo": "https://media-2.api-sports.io/football/teams/33.png"
+              },
+              "points": 50,
+              "goalsDiff": 6,
+              "group": "Premier League",
+              "form": "DLWWD",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage)",
+              "all": {
+                "played": 26,
+                "win": 15,
+                "draw": 5,
+                "lose": 6,
+                "goals": { "for": 41, "against": 35 }
+              },
+              "home": {
+                "played": 13,
+                "win": 9,
+                "draw": 3,
+                "lose": 1,
+                "goals": { "for": 24, "against": 8 }
+              },
+              "away": {
+                "played": 13,
+                "win": 6,
+                "draw": 2,
+                "lose": 5,
+                "goals": { "for": 17, "against": 27 }
+              },
+              "update": "2023-03-19T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

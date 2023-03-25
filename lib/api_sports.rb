@@ -18,6 +18,7 @@ module ApiSports
   autoload :Team, "api_sports/objects/team"
   autoload :Venue, "api_sports/objects/venue"
   autoload :TeamStatistics, "api_sports/objects/team_statistics"
+  autoload :Standing, "api_sports/objects/standing"
 
   # Category of API calls
   autoload :CountriesResource, "api_sports/resources/countries"
@@ -26,4 +27,5 @@ module ApiSports
   autoload :SeasonsResource, "api_sports/resources/seasons"
   autoload :TeamsResource, "api_sports/resources/teams"
   autoload :VenuesResource, "api_sports/resources/venues"
+  autoload :StandingsResource, "api_sports/resources/standings"
 end

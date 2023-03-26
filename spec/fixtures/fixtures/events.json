@@ -1,0 +1,432 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "868021"
+  },
+  "errors": [],
+  "results": 19,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-2.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 162128,
+        "name": "W. Gnonto"
+      },
+      "assist": {
+        "id": 19134,
+        "name": "P. Bamford"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-2.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 162128,
+        "name": "Wilfried Gnonto"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Goal confirmed",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-1.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 37161,
+        "name": "L. Sinisterra"
+      },
+      "assist": {
+        "id": 37724,
+        "name": "C. Summerville"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-3.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 64003,
+        "name": "P. Struijk"
+      },
+      "assist": {
+        "id": 1564,
+        "name": "Junior Firpo"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-2.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 742,
+        "name": "R. Varane"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Own Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-3.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 415,
+        "name": "Weston McKennie"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-1.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 1150,
+        "name": "Tyler Adams"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media-2.api-sports.io/football/teams/33.png"
+      },
+      "player": {
+        "id": 25416,
+        "name": "W. Weghorst"
+      },
+      "assist": {
+        "id": 18,
+        "name": "J. Sancho"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media-3.api-sports.io/football/teams/33.png"
+      },
+      "player": {
+        "id": 284324,
+        "name": "A. Garnacho"
+      },
+      "assist": {
+        "id": 70078,
+        "name": "F. Pellistri"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media-2.api-sports.io/football/teams/33.png"
+      },
+      "player": {
+        "id": 909,
+        "name": "M. Rashford"
+      },
+      "assist": {
+        "id": 886,
+        "name": "Diogo Dalot"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-1.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 19134,
+        "name": "P. Bamford"
+      },
+      "assist": {
+        "id": 90590,
+        "name": "G. Rutter"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-1.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 19128,
+        "name": "J. Harrison"
+      },
+      "assist": {
+        "id": 50739,
+        "name": "B. Aaronson"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media-2.api-sports.io/football/teams/33.png"
+      },
+      "player": {
+        "id": 18,
+        "name": "J. Sancho"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-3.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 1564,
+        "name": "Junior Firpo"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media-2.api-sports.io/football/teams/33.png"
+      },
+      "player": {
+        "id": 1159,
+        "name": "Marcel Sabitzer"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media-3.api-sports.io/football/teams/33.png"
+      },
+      "player": {
+        "id": 1159,
+        "name": "M. Sabitzer"
+      },
+      "assist": {
+        "id": 889,
+        "name": "V. Lindelöf"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media-2.api-sports.io/football/teams/33.png"
+      },
+      "player": {
+        "id": 886,
+        "name": "Diogo Dalot"
+      },
+      "assist": {
+        "id": 37145,
+        "name": "T. Malacia"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-1.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 415,
+        "name": "W. McKennie"
+      },
+      "assist": {
+        "id": 153400,
+        "name": "S. Greenwood"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-1.api-sports.io/football/teams/63.png"
+      },
+      "player": {
+        "id": 162128,
+        "name": "W. Gnonto"
+      },
+      "assist": {
+        "id": 313059,
+        "name": "Mateo Joseph"
+      },
+      "type": "subst",
+      "detail": "Substitution 6",
+      "comments": null
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "get": "fixtures/lineups",
+  "parameters": {
+    "fixture": "868021"
+  },
+  "errors": [],
+  "results": 2,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media-3.api-sports.io/football/teams/33.png",
+        "colors": {
+          "player": {
+            "primary": "ea0000",
+            "number": "ffffff",
+            "border": "ea0000"
+          },
+          "goalkeeper": {
+            "primary": "666666",
+            "number": "ffffff",
+            "border": "666666"
+          }
+        }
+      },
+      "coach": {
+        "id": 1993,
+        "name": "E. ten Hag",
+        "photo": "https://media-2.api-sports.io/football/coachs/1993.png"
+      },
+      "formation": "4-2-3-1",
+      "startXI": [
+        {
+          "player": {
+            "id": 882,
+            "name": "David de Gea",
+            "number": 1,
+            "pos": "G",
+            "grid": "1:1"
+          }
+        },
+        {
+          "player": {
+            "id": 886,
+            "name": "Diogo Dalot",
+            "number": 20,
+            "pos": "D",
+            "grid": "2:4"
+          }
+        },
+        {
+          "player": {
+            "id": 742,
+            "name": "R. Varane",
+            "number": 19,
+            "pos": "D",
+            "grid": "2:3"
+          }
+        },
+        {
+          "player": {
+            "id": 2467,
+            "name": "Lisandro Martínez",
+            "number": 6,
+            "pos": "D",
+            "grid": "2:2"
+          }
+        },
+        {
+          "player": {
+            "id": 891,
+            "name": "L. Shaw",
+            "number": 23,
+            "pos": "D",
+            "grid": "2:1"
+          }
+        },
+        {
+          "player": {
+            "id": 905,
+            "name": "Fred",
+            "number": 17,
+            "pos": "M",
+            "grid": "3:2"
+          }
+        },
+        {
+          "player": {
+            "id": 1159,
+            "name": "M. Sabitzer",
+            "number": 15,
+            "pos": "M",
+            "grid": "3:1"
+          }
+        },
+        {
+          "player": {
+            "id": 909,
+            "name": "M. Rashford",
+            "number": 10,
+            "pos": "M",
+            "grid": "4:3"
+          }
+        },
+        {
+          "player": {
+            "id": 1485,
+            "name": "Bruno Fernandes",
+            "number": 8,
+            "pos": "M",
+            "grid": "4:2"
+          }
+        },
+        {
+          "player": {
+            "id": 284324,
+            "name": "A. Garnacho",
+            "number": 49,
+            "pos": "M",
+            "grid": "4:1"
+          }
+        },
+        {
+          "player": {
+            "id": 25416,
+            "name": "W. Weghorst",
+            "number": 27,
+            "pos": "F",
+            "grid": "5:1"
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": 18,
+            "name": "J. Sancho",
+            "number": 25,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 70078,
+            "name": "F. Pellistri",
+            "number": 28,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 37145,
+            "name": "T. Malacia",
+            "number": 12,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 889,
+            "name": "V. Lindelöf",
+            "number": 2,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 153430,
+            "name": "A. Elanga",
+            "number": 36,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 284322,
+            "name": "K. Mainoo",
+            "number": 73,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 284295,
+            "name": "Zidane Iqbal",
+            "number": 55,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 2935,
+            "name": "H. Maguire",
+            "number": 5,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 2931,
+            "name": "T. Heaton",
+            "number": 22,
+            "pos": "G",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media-1.api-sports.io/football/teams/63.png",
+        "colors": {
+          "player": {
+            "primary": "ffffff",
+            "number": "050976",
+            "border": "ffffff"
+          },
+          "goalkeeper": {
+            "primary": "ffccff",
+            "number": "000000",
+            "border": "ffccff"
+          }
+        }
+      },
+      "coach": {
+        "id": 17848,
+        "name": "M. Skubala",
+        "photo": "https://media-1.api-sports.io/football/coachs/17848.png"
+      },
+      "formation": "4-2-3-1",
+      "startXI": [
+        {
+          "player": {
+            "id": 20619,
+            "name": "I. Meslier",
+            "number": 1,
+            "pos": "G",
+            "grid": "1:1"
+          }
+        },
+        {
+          "player": {
+            "id": 19116,
+            "name": "L. Ayling",
+            "number": 2,
+            "pos": "D",
+            "grid": "2:4"
+          }
+        },
+        {
+          "player": {
+            "id": 26238,
+            "name": "R. Koch",
+            "number": 5,
+            "pos": "D",
+            "grid": "2:3"
+          }
+        },
+        {
+          "player": {
+            "id": 2048,
+            "name": "M. Wöber",
+            "number": 39,
+            "pos": "D",
+            "grid": "2:2"
+          }
+        },
+        {
+          "player": {
+            "id": 64003,
+            "name": "P. Struijk",
+            "number": 21,
+            "pos": "D",
+            "grid": "2:1"
+          }
+        },
+        {
+          "player": {
+            "id": 415,
+            "name": "W. McKennie",
+            "number": 28,
+            "pos": "M",
+            "grid": "3:2"
+          }
+        },
+        {
+          "player": {
+            "id": 1150,
+            "name": "T. Adams",
+            "number": 12,
+            "pos": "M",
+            "grid": "3:1"
+          }
+        },
+        {
+          "player": {
+            "id": 37161,
+            "name": "L. Sinisterra",
+            "number": 23,
+            "pos": "M",
+            "grid": "4:3"
+          }
+        },
+        {
+          "player": {
+            "id": 19128,
+            "name": "J. Harrison",
+            "number": 11,
+            "pos": "M",
+            "grid": "4:2"
+          }
+        },
+        {
+          "player": {
+            "id": 162128,
+            "name": "W. Gnonto",
+            "number": 29,
+            "pos": "M",
+            "grid": "4:1"
+          }
+        },
+        {
+          "player": {
+            "id": 19134,
+            "name": "P. Bamford",
+            "number": 9,
+            "pos": "F",
+            "grid": "5:1"
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": 37724,
+            "name": "C. Summerville",
+            "number": 10,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 1564,
+            "name": "Junior Firpo",
+            "number": 3,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 90590,
+            "name": "G. Rutter",
+            "number": 24,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 50739,
+            "name": "B. Aaronson",
+            "number": 7,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 153400,
+            "name": "S. Greenwood",
+            "number": 42,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 313059,
+            "name": "Mateo Joseph",
+            "number": 49,
+            "pos": null,
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 282124,
+            "name": "D. Gyabi",
+            "number": 18,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 533,
+            "name": "R. Kristensen",
+            "number": 25,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": 1558,
+            "name": "Joel Robles",
+            "number": 22,
+            "pos": "G",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ]
+}

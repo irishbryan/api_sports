@@ -1,0 +1,152 @@
+{
+  "get": "fixtures/headtohead",
+  "parameters": {
+    "league": "39",
+    "season": "2022",
+    "h2h": "33-34"
+  },
+  "errors": [],
+  "results": 2,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 868052,
+        "referee": "C. Pawson",
+        "timezone": "UTC",
+        "date": "2022-10-16T13:00:00+00:00",
+        "timestamp": 1665925200,
+        "periods": {
+          "first": 1665925200,
+          "second": 1665928800
+        },
+        "venue": {
+          "id": 556,
+          "name": "Old Trafford",
+          "city": "Manchester"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-1.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-2.api-sports.io/flags/gb.svg",
+        "season": 2022,
+        "round": "Regular Season - 11"
+      },
+      "teams": {
+        "home": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media-2.api-sports.io/football/teams/33.png",
+          "winner": null
+        },
+        "away": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media-3.api-sports.io/football/teams/34.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 868233,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2023-04-02T15:30:00+00:00",
+        "timestamp": 1680449400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 562,
+          "name": "St. James' Park",
+          "city": "Newcastle upon Tyne"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-1.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-2.api-sports.io/flags/gb.svg",
+        "season": 2022,
+        "round": "Regular Season - 29"
+      },
+      "teams": {
+        "home": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media-3.api-sports.io/football/teams/34.png",
+          "winner": null
+        },
+        "away": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media-1.api-sports.io/football/teams/33.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

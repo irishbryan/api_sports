@@ -16,7 +16,7 @@ module ApiSports
 
     def statistics(league_id:, season_id:, team_id:)
       response = get_request("teams/statistics", params: { team: team_id, league: league_id, season: season_id })
-      TeamStatistics.new(response.body["response"])
+      Statistics.new(response.body["response"])
     end
 
     def seasons(team_id:)

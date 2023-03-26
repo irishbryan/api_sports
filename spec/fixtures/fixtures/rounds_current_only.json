@@ -1,0 +1,15 @@
+{
+  "get": "fixtures/rounds",
+  "parameters": {
+    "league": "39",
+    "season": "2022",
+    "current": "true"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": ["Regular Season - 29"]
+}

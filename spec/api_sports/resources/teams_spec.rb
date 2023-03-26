@@ -26,7 +26,7 @@ RSpec.describe "Teams" do
     client = create_test_client(stub: stub)
     statistics = client.teams.statistics(team_id: 33, league_id: 39, season_id: 2022)
 
-    expect(statistics).to be_a(ApiSports::TeamStatistics)
+    expect(statistics).to be_a(ApiSports::Statistics)
     expect(statistics.goals.for.total.total).to eq(41)
     expect(statistics.form).to eq("LLWWWWLWDWDWLWWWWWDLWDWWLD")
   end

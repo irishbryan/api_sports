@@ -17,8 +17,13 @@ module ApiSports
   autoload :Season, "api_sports/objects/season"
   autoload :Team, "api_sports/objects/team"
   autoload :Venue, "api_sports/objects/venue"
-  autoload :TeamStatistics, "api_sports/objects/team_statistics"
+  autoload :Statistics, "api_sports/objects/statistics"
   autoload :Standing, "api_sports/objects/standing"
+  autoload :Fixture, "api_sports/objects/fixture"
+  autoload :Event, "api_sports/objects/event"
+  autoload :Lineup, "api_sports/objects/lineup"
+  autoload :Player, "api_sports/objects/player"
+  autoload :FixtureRound, "api_sports/objects/fixture_round"
 
   # Category of API calls
   autoload :CountriesResource, "api_sports/resources/countries"
@@ -28,4 +33,5 @@ module ApiSports
   autoload :TeamsResource, "api_sports/resources/teams"
   autoload :VenuesResource, "api_sports/resources/venues"
   autoload :StandingsResource, "api_sports/resources/standings"
+  autoload :FixturesResource, "api_sports/resources/fixtures"
 end

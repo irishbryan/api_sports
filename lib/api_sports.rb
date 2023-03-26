@@ -24,6 +24,10 @@ module ApiSports
   autoload :Lineup, "api_sports/objects/lineup"
   autoload :Player, "api_sports/objects/player"
   autoload :FixtureRound, "api_sports/objects/fixture_round"
+  autoload :Prediction, "api_sports/objects/prediction"
+  autoload :Bookmaker, "api_sports/objects/bookmaker"
+  autoload :Odds, "api_sports/objects/odds"
+  autoload :Bet, "api_sports/objects/bet"
 
   # Category of API calls
   autoload :CountriesResource, "api_sports/resources/countries"
@@ -34,4 +38,6 @@ module ApiSports
   autoload :VenuesResource, "api_sports/resources/venues"
   autoload :StandingsResource, "api_sports/resources/standings"
   autoload :FixturesResource, "api_sports/resources/fixtures"
+  autoload :PredictionsResource, "api_sports/resources/predictions"
+  autoload :OddsResource, "api_sports/resources/odds"
 end

@@ -2,7 +2,7 @@
 
 An unofficial ruby gem to integrate [API-Sports](https://api-sports.io/#) sports data into your app.
 
-[![Gem Version](https://badge.fury.io/rb/api-sports.svg)](https://badge.fury.io/rb/api-sports) [![Tests](https://github.com/irishbryan/api_sports/actions/workflows/tests.yml/badge.svg)](https://github.com/sportsroom/oddx/actions/workflows/tests.yml)
+[![Gem Version](https://badge.fury.io/rb/api-sports.svg)](https://badge.fury.io/rb/api-sports) [![Tests](https://github.com/irishbryan/api_sports/actions/workflows/tests.yml/badge.svg)](https://github.com/irishbryan/api_sports/actions/workflows/tests.yml)
 
 [API-Sports](https://api-sports.io/) provides sports data APIs. This gem is an unofficial wrapper providing lightweight integration of sports data into an application or service. This library does not attempt to support all API capabilities but instead focuses on the most used endpoints (e.g. retrieving game data). Coverage summary:
 

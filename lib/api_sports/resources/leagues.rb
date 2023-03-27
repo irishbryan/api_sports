@@ -13,5 +13,11 @@ module ApiSports
       end
       League.new(response)
     end
+
+    def seasons
+      response = get_request("leagues/seasons")
+      Collection.from_response(response, type: Season)
+    end
+
   end
 end

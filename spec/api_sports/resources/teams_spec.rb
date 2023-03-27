@@ -13,7 +13,7 @@ RSpec.describe "Teams" do
   end
 
   it "can retrieve specific team based on id" do
-    stub = stub_request("teams?team=33", response: stub_response(fixture: "teams/retrieve"))
+    stub = stub_request("teams?id=33", response: stub_response(fixture: "teams/retrieve"))
     client = create_test_client(stub: stub)
     team = client.teams.retrieve(team_id: 33)
 

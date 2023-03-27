@@ -3,14 +3,15 @@
 require_relative "lib/api_sports/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "api_sports"
+  spec.name = "api-sports"
   spec.version = ApiSports::VERSION
   spec.authors = ["irishbryan"]
   spec.email = ["bbyrne@gmail.com"]
 
-  spec.summary = "Ruby bindings for the api-sports.io API"
+  spec.summary = "Ruby bindings for the api-sports.io API (Unofficial)"
   spec.homepage = "https://github.com/irishbryan/api-sports"
   spec.required_ruby_version = ">= 2.6.0"
+  spec.license = "MIT"
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
 

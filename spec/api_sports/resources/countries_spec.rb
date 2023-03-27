@@ -12,11 +12,11 @@ RSpec.describe "Countries" do
   end
 
   it "can retrieve based on country name" do
-    stub = stub_request("countries?name=Ireland", response: stub_response(fixture: "countries/retrieve"))
+    stub = stub_request("countries?name=Ireland", response: stub_response(fixture: "countries/list_by_name"))
     client = create_test_client(stub: stub)
-    country = client.countries.retrieve(country_name: "Ireland")
+    countries = client.countries.list(name: "Ireland")
 
-    expect(country.class).to eq(ApiSports::Country)
-    expect(country.name).to eq("Ireland")
+    expect(countries).to be_a(ApiSports::Collection)
+    expect(countries.data.first.name).to eq("Ireland")
   end
 end

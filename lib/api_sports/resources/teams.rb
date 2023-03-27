@@ -8,7 +8,7 @@ module ApiSports
     end
 
     def retrieve(team_id:)
-      response = get_single_resource("teams", params: { team: team_id }) do |r|
+      response = get_single_resource("teams", params: { id: team_id }) do |r|
         r.body["response"].first.dig("team")
       end
       Team.new(response)

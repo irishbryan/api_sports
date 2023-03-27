@@ -2,7 +2,7 @@
 
 RSpec.describe "Resource" do
   it "can retrieve a single resource using custom dig block" do
-    stub = stub_request("countries?name=Ireland", response: stub_response(fixture: "countries/retrieve"))
+    stub = stub_request("countries?name=Ireland", response: stub_response(fixture: "countries/list_by_name"))
     client = create_test_client(stub: stub)
     country_name = client.countries.get_single_resource("countries", params: { name: "Ireland" }) do |r|
       r.body["response"].first["name"]

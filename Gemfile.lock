@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    api_sports (0.1.0)
+    api-sports (0.1.0)
       faraday (~> 2.7)
 
 GEM
@@ -54,7 +54,7 @@ PLATFORMS
   x86_64-darwin-22
 
 DEPENDENCIES
-  api_sports!
+  api-sports!
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)

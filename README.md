@@ -54,7 +54,7 @@ fixtures.total_pages
 
 ## Acknowledgements
 
-Hat tip to [tolbkni](vultr.rb) and [GoRails](https://gorails.com/episodes/api-requests-with-faraday) for inspiration on how to structure this library.
+Hat tip to [tolbkni/vultr.rb](https://github.com/tolbkni/vultr.rb), [@excid3](https://github.com/excid3) and [GoRails](https://gorails.com/episodes/api-requests-with-faraday) for inspiration on how to structure this library.
 
 ## Development
 
